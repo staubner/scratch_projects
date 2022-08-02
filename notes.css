@@ -42,6 +42,7 @@
 
 .breadcrumb a::before {
   left: -10px;
+  border-left-color: transparent;
 }
 .breadcrumb a::after {
   left: 100%;
@@ -51,4 +52,15 @@
   left: 100%;
   border-color: transparent;
   border-left-color: darkcyan;
-} */
+} 
+
+.breadcrumb a:hover {
+  background-color: blue;
+}
+.breadcrumb a:hover::before {
+  border-color: blue;
+  border-left-color: transparent;
+}
+.breadcrumb a:hover::after {
+  border-left-color: blue;
+}*/
