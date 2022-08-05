@@ -1,0 +1,110 @@
+<!-- May the spirit of the Omnissiah bless this humble code -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Taubner Website Style Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Website Style Guide - Sean Taubner</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="colour-container">
+                <h2 class="section-heading">Colours</h2>
+                <div class="colour-panel dark-blue">
+                    <p class="colour-label">Dark Blue</p>
+                    <p class="colour-hex">#003049</p>
+                </div>
+                <div class="colour-panel red">
+                    <p class="colour-label">Red</p>
+                    <p class="colour-hex">#D62828</p>
+                </div>
+                <div class="colour-panel orange">
+                    <p class="colour-label">Orange</p>
+                    <p class="colour-hex">#F77F00</p>
+                </div>
+                <div class="colour-panel yellow">
+                    <p class="colour-label">Yellow</p>
+                    <p class="colour-hex">#FCBF49</p>
+                </div>
+                <div class="colour-panel beige">
+                    <p class="colour-label">Beige</p>
+                    <p class="colour-hex">#EAE2B7</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="font-container">
+                <h2 class="section-heading">Fonts</h2>
+                <div class="font-panel raleway">
+                    <p class="font-name">Raleway</p>
+                    <p class="font-example">The quick brown fox jumped over the lazy dog.</p>
+                    <p class="font-example italic">The quick brown fox jumped over the lazy dog.</p>
+                    <p class="font-example bold">The quick brown fox jumped over the lazy dog.</p>
+                </div>
+                <div class="font-panel merriweather">
+                    <p class="font-name">Merriweather</p>
+                    <p class="font-example">The quick brown fox jumped over the lazy dog.</p>
+                    <p class="font-example italic">The quick brown fox jumped over the lazy dog.</p>
+                    <p class="font-example bold">The quick brown fox jumped over the lazy dog.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-container">
+                <h2 class="section-heading">Text Styles</h2>
+                <div class="text-style">
+                    <h1>H1 - Page Heading</h1>
+                    <ul>
+                        <li>Font-size: 48px</li>
+                        <li>Font-weight: bold (700)</li>
+                        <li>Font-family: Merriweather</li>
+                    </ul>
+                </div>
+                <div class="text-style">
+                    <h2>H2 - Page Subheading</h2>
+                    <ul>
+                        <li>Font-size: 36px</li>
+                        <li>Font-weight: bold (700)</li>
+                        <li>Font-family: Merriweather</li>
+                        <li>If inside a container (e.g. section heading): border-bottom: 1px solid gray</li>
+                    </ul>
+                </div>
+                <div class="text-style">
+                    <p>P - Paragraph</p>
+                    <ul>
+                        <li>Font-size: 16px</li>
+                        <li>Font-weight: normal (400)</li>
+                        <li>Font-family: Raleway</li>
+                    </ul>
+                </div>
+                <div class="text-style">
+                    <h2>Div Container</h2>
+                    <ul>
+                        <li>Border: 2px solid gray</li>
+                        <li>Width: 100%</li>
+                        <li>Padding: 10px</li>
+                        <li>Margin: 10px auto</li>
+                    </ul>
+                </div>
+                <div class="text-style">
+                    <h2>Body</h2>
+                    <ul>
+                        <li>Margin: 0 10%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
