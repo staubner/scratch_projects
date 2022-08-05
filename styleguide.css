@@ -1,0 +1,113 @@
+/* Universal Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    border: 2px solid gray;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.section-heading {
+    border-bottom: 1px solid gray;
+}
+
+/* Colour Area Styles */
+
+.colour-label {
+    font-weight: bold;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 120px;
+}
+
+.colour-panel p {
+    font-size: 18px;
+}
+
+.dark-blue {
+    background-color: #003049;
+    color: white;
+}
+
+.red {
+    background-color: #d62828;
+    color: white;
+}
+
+.orange {
+    background-color: #f77f00;
+}
+
+.yellow {
+    background-color: #FCBF49;
+}
+
+.beige {
+    background-color: #eae2b7;
+}
+
+/* Font Area Styles */
+
+.font-panel {
+    width: 40%;
+    display: inline-block;
+}
+
+.font-name {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.merriweather {
+    font-family: "Merriweather", serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-example {
+    letter-spacing: 0.1em;
+}
+
+/* Text Styles Area */
+
+.text-style {
+    border-bottom: 1px solid gray;
+}
