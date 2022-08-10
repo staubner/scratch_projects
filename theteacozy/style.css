@@ -178,7 +178,7 @@ main {
     background-color: black;
     text-align: center;
     margin: 20px;
-    opacity: 1 !important;
+    opacity: 1;
     line-height: 2;
     align-items: center;
     margin-top: 0;
