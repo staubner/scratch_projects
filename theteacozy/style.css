@@ -44,7 +44,7 @@ main {
     margin: 0 auto;
     width: 1200px;
     height: 700px;
-    background-image: url('https://github.com/staubner/staubner.github.io/blob/main/theteacozy/img-mission-background.jpg');
+    background-image: url('/img-mission-background.jpg');
     justify-content: center;
     align-items: center;
 }
