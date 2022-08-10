@@ -27,14 +27,45 @@ main {
     background-color: black;
 }
 
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 .logo {
     height: 50px;
-    padding: 10px;
+}
+
+.navlinks {
+    display: inline-flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+#left,
+#right,
+#centre {
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#right {
+    margin-right: 10px;
 }
 
 .navcontainer a {
     color: seashell;
-    margin: 0 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks a:hover {
+    color: black;
+    background-color: seashell;
+    transition: 0.2s;
 }
 
 /* Jumbotron Style */
@@ -44,8 +75,7 @@ main {
     margin: 0 auto;
     width: 1200px;
     height: 700px;
-    background-image: url(img-mission-background.jpg);
-    background-position: center;
+    background-image: url(resources/img-mission-background.jpg);
     justify-content: center;
     align-items: center;
 }
@@ -109,7 +139,7 @@ main {
 .locations-container {
     height: 500px;
     width: 1200px;
-    background-image: url(img-locations-background.jpg);
+    background-image: url(resources/img-locations-background.jpg);
     margin: 50px auto;
     margin-bottom: 0;
     background-position: center;
