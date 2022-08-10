@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.9;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -178,7 +178,7 @@ main {
     background-color: black;
     text-align: center;
     margin: 20px;
-    opacity: 0.2;
+    opacity: 1;
     line-height: 2;
     align-items: center;
     margin-top: 0;
