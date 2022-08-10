@@ -40,7 +40,6 @@ main {
 
 .navlinks {
     display: inline-flex;
-    margin-right: 10px;
     align-items: center;
 }
 
@@ -53,7 +52,7 @@ main {
 }
 
 #right {
-    margin-right: 0;
+    margin-right: 10px;
 }
 
 .navcontainer a {
