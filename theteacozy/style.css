@@ -39,7 +39,7 @@ main {
 }
 
 .navlinks {
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
