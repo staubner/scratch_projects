@@ -109,7 +109,7 @@ ff5033 door red
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (hover: hover) {
     .nav .navlink:hover {
         color: #ddc7aa;
         background-color: black;
